@@ -5,6 +5,6 @@ package org.devkursat;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println(new HelloService().sayHello("Kürşat"));
     }
 }
